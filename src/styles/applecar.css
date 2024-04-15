@@ -1,0 +1,17 @@
+@media screen and (max-width: 640px) {
+.AppleCarouseln .details img{
+    width: 25%;
+}
+.details h1{
+    font-size: 1rem;
+    line-height: 23px;
+}
+.details a{
+    font-size: 14px;
+}
+.carousel .btn{
+    padding: 4px 7px;
+    font-size: .8rem;
+    gap: 5px;
+}
+}

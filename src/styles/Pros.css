@@ -1,0 +1,31 @@
+/* 
+.prospage{
+    background-image: url("https://www.apple.com/in/iphone/home/images/overview/retail/alt/why_apple__ezn1ktvka6oi_large_2x.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+} */
+
+@media screen and (max-width: 640px) {
+    .prospage{
+        background-image: url("https://www.apple.com/in/iphone/home/images/overview/retail/alt/why_apple__ezn1ktvka6oi_medium_2x.jpg");
+        background-size: cover;
+        background-position: bottom;
+        padding: 0;
+        margin-top: 5rem;
+        width: 95%;
+        height: 100vh;
+    }
+    .prospage h1{
+        font-size: 2rem;
+        line-height: 35px;
+    }
+    .prospage .details{
+        width: 100%;
+    }
+    .prospage .details p{
+        padding: 0 20px;
+        line-height: 24px;
+        font-size: 16px;
+    }
+    }

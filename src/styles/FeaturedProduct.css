@@ -1,0 +1,81 @@
+@media screen and (max-width:640px) {
+    .Featured {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .Featured .title {
+        height: 40vh;
+    }
+
+    .Featured .title h1 {
+        font-size: 2rem;
+    }
+
+    .featured_product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Featutred-box .title {
+        height: 150px;
+    }
+
+    .Featured .Featutred-box {
+        width: 95%;
+        overflow: hidden;
+        height: 95vh;
+    }
+
+    .featured_product .title {
+        height: 40vh;
+    }
+
+    .featured_product .image {
+        height: 40vh;
+        margin-bottom: 1rem;
+    }
+
+    .featured_product .image .image_main {
+        height: inherit;
+        margin-top: -6rem;
+    }
+
+    .Featutred-box .title {
+        margin-bottom: 10rem;
+    }
+
+    .Featutred-box .title h1 {
+        width: 100%;
+        padding: 0;
+        margin-top: 5rem;
+    }
+
+    .Featured section {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
+   .Featured section .box {
+        height: 76vh;
+        width: 95%;
+        gap: 30px;
+    }
+
+   .Featured section .box h2 {
+    height: 20px;
+    }
+   .Featured section .box span {
+   margin-top: 10px;
+}
+    .Featured section .box h1{
+        padding: 0;
+    }
+.linkify{
+    margin: 0;
+}
+}

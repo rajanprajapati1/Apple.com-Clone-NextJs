@@ -1,0 +1,101 @@
+@media screen and (max-width: 640px) {
+    .footer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        height: 130vh;
+    }
+
+    .footer .logo {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .footer_div {
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .line {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .footer_div h2 {
+        margin: 0px 0;
+        margin-left: 2px;
+        position: relative;
+    }
+    .footer_div h2::after {
+        content: '▼'; /* Your dropdown icon here */
+        display: inline-block;
+        position: absolute;
+        right: 2rem;
+      }
+      
+    
+    .footer_div ul {
+        margin: 15px 0;
+        position: relative;
+        height: auto;
+    }
+
+    .footer_div ul li {
+        display: none;
+        margin: 10px 15px;
+    }
+    .footer_div h2:hover + ul li {
+        display: block;
+    }
+    .footer_div ul::after{
+        content: "";
+        position: absolute;
+        width: 90%;
+        height: 1px;
+        background-color: gray;
+        left: 0;
+        margin-top: -5px;
+    }
+    .copyright {
+        flex-direction: column;
+        height: 30vh;
+        align-items: flex-start;
+        justify-content: space-between;
+        color: rgb(69, 69, 69);
+    }
+    .copyright ul{
+        order: 3;
+        flex-wrap: wrap;
+        margin-left: 0;
+        line-height: 12px;
+        margin-bottom: 0.5rem;
+    }
+    .copyright ul li{
+        margin-left: 0px;
+        font-size: 11px;
+        margin-right: -5px;
+    }
+    .copyright span:nth-child(1){
+        order: 2;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .copyright span:nth-child(2){
+        order: 1;
+        color: rgb(69, 69, 69);
+    }
+    .shop{
+        width: 90%;
+        padding: 0;
+        line-height: 10px;
+        margin: 15px 0;
+    }
+    .shop span{
+        margin: 0;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

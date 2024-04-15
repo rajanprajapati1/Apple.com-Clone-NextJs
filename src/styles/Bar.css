@@ -1,0 +1,13 @@
+
+
+@media screen and (max-width: 640px) {
+.bar{
+    height: 18vh;
+}
+.bar span{
+    text-align: center;
+    font-size: 11px;
+    width: 80%;
+}
+
+}

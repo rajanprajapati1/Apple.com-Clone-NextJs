@@ -1,0 +1,74 @@
+.CarouselItem div:hover{
+    scale: 1;
+    transition: .6s ease-in;
+}
+.CarouselItem div{
+    scale: .95;
+}
+
+/* @media screen and (max-width : 640px) {
+    .ProductCarousel {
+    }
+} */
+
+/* SmallCarousel */
+@media screen and (max-width : 640px) {
+    .SmallCarousel{
+        width: 100%;
+    justify-content: center;
+    }
+    .SmallCarousel .CarouselContent{
+        width: 100%;
+    }
+    .SmallCarousel .CarouselContent .card{
+        width: 100%;
+        margin-left: 8px;
+    }
+    .next{
+        margin-right: 4rem;
+    }
+    .prev{
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width : 640px) {
+    .ProductCarousel{
+        height: 18vh;
+        margin: 0;
+        padding : 0 ;
+        align-items: center;
+        text-align: center;
+    }
+    .ProductCarousel h1{
+        font-size: 1.3rem;
+        line-height: 24px;
+        padding: 0 10px;
+    }
+    .MainProductCarousel main{
+        width: 100%;
+    }
+    .MainProductCarousel .CarouselItem .shadow{
+        width: 90%;
+        margin-left: 1rem;
+    }
+}
+
+/* FlexBar */
+@media screen and (max-width : 640px) {
+    .flexbar{
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+        overflow: hidden;
+    }
+    .flexbar .title{
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+    .flexbar .title span{
+        font-size: 2rem;
+    }
+    
+}

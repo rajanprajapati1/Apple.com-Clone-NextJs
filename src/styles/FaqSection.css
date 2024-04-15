@@ -1,0 +1,12 @@
+@media screen and (max-width  : 640px) {
+     .main main{
+        width: 100%;
+        padding: 0 ;
+        margin: 0 auto;
+     }
+     .main_details{
+        padding: 10px 20px;
+        font-size: 8px;
+        overflow: hidden;
+     }
+}

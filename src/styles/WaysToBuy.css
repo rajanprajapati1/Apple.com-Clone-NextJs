@@ -1,0 +1,50 @@
+.image .image_main {
+    background-size: 610px 320px;
+}
+
+@media screen and (max-width: 640px) {
+    .waystobuy {
+        height: auto;
+    }
+
+    .waystobuy .title h1 {
+        font-size: 2.2rem;
+    }
+
+    .flex_container {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box .title {
+        height: 35vh;
+    }
+
+    .box:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    .flex_container .box .title h1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding: 9px;
+        margin: 0 25px;
+    }
+
+  .waystobuy  .flex_container .box {
+        width: 95%;
+    }
+
+    .box .link {
+        margin-top: 15px;
+    }
+
+    .image .image_main {
+        background-size: contain;
+    }
+
+    .flex_container .box {
+        width: 100%;
+    }
+}

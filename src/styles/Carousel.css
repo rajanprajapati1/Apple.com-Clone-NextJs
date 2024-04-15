@@ -1,0 +1,43 @@
+.mobile-carousel {
+    display: none;
+}
+
+.btn-carousel {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .product_list {
+        justify-content: space-between;
+    }
+
+    .desktop {
+        overflow-x: scroll;
+        width: 80%;
+    }
+    .desktop::-webkit-scrollbar {
+        display: none;
+    }
+
+    .mobile-carousel {
+        display: flex;
+    }
+
+    .btn-carousel {
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-carousel strong {
+        height: 100px;
+        background-color: rgb(186, 184, 184);
+        width: 0.6px;
+        margin: 0 8px;
+    }
+
+    .btn-carousel span {
+        font-size: 23px;
+        color: rgb(103, 103, 103);
+    }
+
+}

@@ -1,0 +1,100 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #F2F2F2;
+}
+
+.navbar .nav-list{
+    position: relative;
+    display: flex;
+    gap: 35px;
+    height: auto;
+}
+.mobile{
+    display: none;
+}
+.mobile_menu{
+    display: none;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+.navbar .main {
+    height: 0px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
+    backdrop-filter: blur(10px);
+    transition:height 0.15s ease-in;
+}
+
+.navbar:hover .main{
+    height: auto;
+    transition:height 0.15s ease-in;
+
+}
+/* Styles for screens up to 640px */
+@media screen and (max-width: 640px) {
+    .applelogo{
+        font-size: 25px;
+    }
+    .main{
+display: none;
+    }
+    .navbar{
+        height: 55px;
+        justify-content: space-between;
+    }
+    .mobile {
+      display: block;
+    }
+    .mobile_menu{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 13px;
+        margin-left: -13px;
+    }
+   .navbar .nav-list{
+        position: absolute;
+        background-color: white;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+        gap: 0px;
+        top: 0;
+        overflow: scroll;
+        height: 0vh;
+    }
+    .nav-list.open {
+        display: flex;
+        transition: 0.2s ease;
+        height: 100vh;
+    }
+    .nav-list a{
+        font-weight: 600;
+        color: black;
+        padding: 0 50px;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .button{
+        margin: 0 5px;
+    }
+    .button .icons{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+  }
+  

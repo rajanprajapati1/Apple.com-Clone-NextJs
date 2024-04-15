@@ -1,0 +1,44 @@
+@media screen and (max-width :640px) {
+    .container-l {
+        width: 100%;
+        justify-content: start;
+        height: auto;
+    }
+
+    .container-l .title {
+        font-size: 2rem;
+        margin-top: 2rem;
+        padding: 10px
+    }
+
+    .container-l .one {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .one .first {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1rem;
+    }
+
+    .first img {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+        margin-right: 7rem;
+    }
+    .second{
+        height: 65vh;
+        width: 100%;
+        margin-top: -2rem;
+        justify-content: start;
+        text-align: center;
+    }
+    .second img{
+        width: 30%;
+    }
+}
